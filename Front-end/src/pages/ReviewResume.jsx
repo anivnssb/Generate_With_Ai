@@ -1,5 +1,5 @@
-const ReviewResume. = () => {
-  return <div>ReviewResume.</div>;
+const ReviewResume = () => {
+  return <div>ReviewResume</div>;
 };
 
-export default ReviewResume.;
+export default ReviewResume;
