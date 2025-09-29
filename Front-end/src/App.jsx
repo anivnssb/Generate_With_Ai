@@ -8,10 +8,12 @@ import GenerateImages from "./pages/GenerateImages";
 import RemoveBackground from "./pages/RemoveBackground";
 import ReviewResume from "./pages/ReviewResume";
 import Community from "./pages/Community";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ai" element={<Layout />}>
